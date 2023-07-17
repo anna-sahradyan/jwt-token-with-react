@@ -1,0 +1,49 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+
+
+
+}
+
+html {
+    height: 100%;
+
+}
+
+
+.wrapper {
+    min-width: 100%;
+    display: flex;
+    color: white;
+    min-height: 100vh;
+
+}
+
+.main {
+
+    min-width: 75%;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
